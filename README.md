@@ -42,7 +42,7 @@ data/ # Conjunto de dados históricos
 
 
 reports/ # Relatório do desafio
-- VIII_Desafio_InvesteAI_Relatorio.docx
+- VII-Desafio_InvesteAI.docx
 
 models/ # Modelos treinados salvos
 - trading_bot.pkl # Modelo final exportado
