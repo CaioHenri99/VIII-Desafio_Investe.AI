@@ -19,30 +19,34 @@ O objetivo deste projeto é construir um bot inteligente para operar no mercado 
 ## 📁 Estrutura do Repositório
 
 InvesteAI-Trading-Bot/
-├── notebooks/ # Jupyter Notebooks com as etapas do projeto
-│ ├── EDA_V1_.ipynb # Análise exploratória dos dados
-│ ├── DeepQLearning_Desafio.ipynb # Implementação de aprendizado por reforço profundo
-│ ├── InvesteAI_Reforco.ipynb # Estratégia baseada em aprendizado por reforço
-│ ├── RandomForest_Desafio.ipynb # Modelo Random Forest para decisão de trade
-│ ├── Regressão_linear_Desafio.ipynb # Abordagem com regressão linear
-│ └── ARIMA_e_SARIMA.ipynb # Modelos de séries temporais (ARIMA e SARIMA)
-│
-├── streamlit_app/ # Aplicativo interativo em Streamlit
-│ ├── app.py # Interface com o bot de trading
-│ └── assets/ # Imagens ou arquivos estáticos usados no app
-│
-├── data/ # Conjunto de dados históricos
-│ ├── sp500_2015_2024.csv # Dados do S&P 500 entre 2015 e 2024
-│ ├── sp500_2025.csv # Dados de 2025 (ano atual)
-│ └── SP500.csv # Arquivo geral com histórico do índice
-│
-├── reports/ # Relatório do desafio
-│ └── VIII_Desafio_InvesteAI_Relatorio.docx
-│
-├── models/ # Modelos treinados salvos
-│ └── trading_bot.pkl # Modelo final exportado
-│
-└── README.md # Este arquivo
+
+notebooks/ # Jupyter Notebooks com as etapas do projeto
+- EDA_V1_.ipynb # Análise exploratória dos dados
+- DeepQLearning_Desafio.ipynb # Implementação de aprendizado por reforço profundo
+- InvesteAI_Reforco.ipynb # Estratégia baseada em aprendizado por reforço
+- RandomForest_Desafio.ipynb # Modelo Random Forest para decisão de trade
+- Regressão_linear_Desafio.ipynb # Abordagem com regressão linear
+- ARIMA_e_SARIMA.ipynb # Modelos de séries temporais (ARIMA e SARIMA)
+
+
+streamlit_app/ # Aplicativo interativo em Streamlit
+- app.py # Interface com o bot de trading
+-   assets/ # Imagens ou arquivos estáticos usados no app
+
+
+data/ # Conjunto de dados históricos
+- sp500_2015_2024.csv # Dados do S&P 500 entre 2015 e 2024
+- sp500_2025.csv # Dados de 2025 (ano atual)
+- SP500.csv # Arquivo geral com histórico do índice
+
+
+reports/ # Relatório do desafio
+- VIII_Desafio_InvesteAI_Relatorio.docx
+
+models/ # Modelos treinados salvos
+- trading_bot.pkl # Modelo final exportado
+
+README.md # Este arquivo
 
 
 ---
