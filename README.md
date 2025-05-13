@@ -79,4 +79,4 @@ Data	Preço Fechamento	Ação Sugerida
 
 O relatório completo da solução, abordando metodologia, resultados e conclusões, está disponível na pasta:
 
-/reports/VIII_Desafio_InvesteAI_Relatorio.docx
+/reports/VII-Desafio_InvesteAI.docx
