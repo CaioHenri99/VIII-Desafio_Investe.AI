@@ -26,6 +26,7 @@ notebooks/ # Jupyter Notebooks com as etapas do projeto
 - InvesteAI_Reforco.ipynb # Estratégia baseada em aprendizado por reforço
 - RandomForest_Desafio.ipynb # Modelo Random Forest para decisão de trade
 - Regressão_linear_Desafio.ipynb # Abordagem com regressão linear
+- PPO_InvesteAI.ipynb # Abordagem com regressão linear
 - ARIMA_e_SARIMA.ipynb # Modelos de séries temporais (ARIMA e SARIMA)
 
 
@@ -67,9 +68,9 @@ README.md # Este arquivo
 = O bot analisa dados como médias móveis, RSI, volume e realiza previsões com base em modelos supervisionados para sugerir ações como:
 
 Data	Preço Fechamento	Ação Sugerida
-2023-06-01	104.32	🟢 Comprar
-2023-06-02	108.50	🔴 Vender
-2023-06-05	106.20	🟡 Manter
+- 2023-06-01	104.32	🟢 Comprar
+- 2023-06-02	108.50	🔴 Vender
+- 2023-06-05	106.20	🟡 Manter
 
 ---
 
