@@ -45,7 +45,12 @@ reports/ # Relatório do desafio
 - VII-Desafio_InvesteAI.docx
 
 models/ # Modelos treinados salvos
-- trading_bot.pkl # Modelo final exportado
+- best_model_PPO.zip # Modelo final utilizado
+- model_ep10.keras # .keras (modelos experimentais/testes)
+- model_ep20.keras
+- model_ep30.keras
+- model_ep40.keras
+- model_ep50.keras
 
 README.md # Este arquivo
 
@@ -54,18 +59,19 @@ README.md # Este arquivo
 
 
 ## 🛠️ Tecnologias Utilizadas
-- Python (Pandas, NumPy, Scikit-learn)
+- Python (Pandas, NumPy, Scikit-learn, TensorFlow, Keras)
 - Jupyter Notebook
+- VScode
 - Streamlit
 - Matplotlib / Plotly
-- APIs de dados financeiros (ex: Yahoo Finance, Alpha Vantage)
+- APIs de dados financeiros (ex: Yahoo Finance)
 - Backtesting com estratégias baseadas em machine learning
 
 ---
 
 ## 📊 Exemplo de Decisão do Bot
 
-= O bot analisa dados como médias móveis, RSI, volume e realiza previsões com base em modelos supervisionados para sugerir ações como:
+= O bot analisa dados como médias móveis, RSI, volume e realiza previsões com base em modelos supervisionados/reforço para sugerir ações como:
 
 Data	Preço Fechamento	Ação Sugerida
 - 2023-06-01	104.32	🟢 Comprar
