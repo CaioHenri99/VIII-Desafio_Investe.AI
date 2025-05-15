@@ -26,7 +26,7 @@ notebooks/ # Jupyter Notebooks com as etapas do projeto
 - InvesteAI_Reforco.ipynb # Estratégia baseada em aprendizado por reforço
 - RandomForest_Desafio.ipynb # Modelo Random Forest para decisão de trade
 - Regressão_linear_Desafio.ipynb # Abordagem com regressão linear
-- PPO_InvesteAI.ipynb # Abordagem com regressão linear
+- PPO_InvesteAI.ipynb # Modelo PPO (Otimização de Política Proximal)
 - ARIMA_e_SARIMA.ipynb # Modelos de séries temporais (ARIMA e SARIMA)
 
 
@@ -59,7 +59,7 @@ README.md # Este arquivo
 
 
 ## 🛠️ Tecnologias Utilizadas
-- Python (Pandas, NumPy, Scikit-learn, TensorFlow, Keras)
+- Python (Pandas, NumPy, Scikit-learn, TensorFlow, Keras, PPO, Pytorch)
 - Jupyter Notebook
 - VScode
 - Streamlit
