@@ -40,8 +40,8 @@ data/ # Conjunto de dados históricos
 - SP500.csv # Arquivo geral com histórico do índice
 
 
-reports/ # Relatório do desafio
-- VII-Desafio_InvesteAI.docx
+Relatório/ # Relatório do desafio
+- Desafio ciência de dados.docx
 
 models/ # Modelos treinados salvos
 - best_model_PPO.zip # Modelo PPO teste
@@ -68,6 +68,21 @@ README.md # Este arquivo
 
 ---
 
+## 📺 Passo a passo para o Streamlit:
+
+Para rodar o aplicativo Streamlit, você precisa dos seguintes arquivos principais que estão na pasta:
+- app.py
+- model_ep30.keras
+- SP500.csv
+
+O comando para execução do aplicativo é:
+- streamlit run app.py
+
+Também é recomendado ter o arquivo "requirementes.txt" para garantir que todas as dependências estejam instaladas. Você pode instalar as dependências com:
+- pip install -r requirements.txt
+
+---
+
 ## 📊 Exemplo de Decisão do Bot
 
 = O bot analisa dados como médias móveis, RSI, volume e realiza previsões com base em modelos supervisionados/reforço para sugerir ações como:
@@ -84,4 +99,4 @@ Data	Preço Fechamento	Ação Sugerida
 
 O relatório completo da solução, abordando metodologia, resultados e conclusões, está disponível na pasta:
 
-/reports/VII-Desafio_InvesteAI.docx
+/Relatório/Desafio ciência de dados.docx
