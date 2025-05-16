@@ -34,7 +34,6 @@ streamlit_app/ # Aplicativo interativo em Streamlit
 - app.py # Interface com o bot de trading
 -   assets/ # Imagens ou arquivos estáticos usados no app
 
-
 data/ # Conjunto de dados históricos
 - sp500_2015_2024.csv # Dados do S&P 500 entre 2015 e 2024
 - sp500_2025.csv # Dados de 2025 (ano atual)
