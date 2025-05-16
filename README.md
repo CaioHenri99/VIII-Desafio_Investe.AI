@@ -32,7 +32,7 @@ notebooks/ # Jupyter Notebooks com as etapas do projeto
 
 streamlit_app/ # Aplicativo interativo em Streamlit
 - app.py # Interface com o bot de trading
--   assets/ # Imagens ou arquivos estáticos usados no app
+- requirements.txt # Libs necessárias para o streamlit
 
 data/ # Conjunto de dados históricos
 - sp500_2015_2024.csv # Dados do S&P 500 entre 2015 e 2024
@@ -44,10 +44,10 @@ reports/ # Relatório do desafio
 - VII-Desafio_InvesteAI.docx
 
 models/ # Modelos treinados salvos
-- best_model_PPO.zip # Modelo final utilizado
+- best_model_PPO.zip # Modelo PPO teste
 - model_ep10.keras # .keras (modelos experimentais/testes)
 - model_ep20.keras
-- model_ep30.keras
+- model_ep30.keras # Modelo final utilizado
 - model_ep40.keras
 - model_ep50.keras
 
